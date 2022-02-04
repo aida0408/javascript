@@ -68,10 +68,25 @@
 //
 // console.log(task7(127))
 
-function  task11(a, b, c, d){
-    return Math.min(a, b, c, d)
+// function  task11(a, b, c, d){
+//     return Math.min(a, b, c, d)
+//
+// }
+//
+// console.log(task11(5, 3, 2, 4))
+// console.log(task11(121, 10, 2, 4))
 
-}
-
-console.log(task11(5, 3, 2, 4))
-console.log(task11(121, 10, 2, 4))
+// function sum ( a, b){
+//     return a + b
+// }
+//
+// console.log(sum (3, 9))
+// console.log(sum (5, 9))
+// function task2 (str){
+//     return `Hello my dear ${str}!`
+// }
+//
+// console.log(task2("Dima"))
+// console.log(task2("Lena"))
+// console.log(task2("Maral"))
+// console.log(task2("Aya"))

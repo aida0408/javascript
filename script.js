@@ -238,3 +238,18 @@
 //     color: "white"
 // }
 // console.log(car.model)
+
+// function removeCart (str){
+//     return str.substring(1, str.length-1)
+// }
+//
+// console.log(removeCart("Karbalas"))
+
+function isPalindrome(line) {
+    return line.split("").reverse().join('').toLowerCase() === line.toLowerCase()
+
+}
+
+console.log(isPalindrome("anna"))
+console.log(isPalindrome("dima"))
+console.log(isPalindrome("tacocaT"))

@@ -171,21 +171,70 @@
 // Вот как должна работать ваша функция:
 // пример вызова // что должна вернуть функция при таком вызове
 
-function finalValue(exam, projects){
-    if(exam > 90 || projects > 10){
-        return 100
-    }else if(exam > 75 && projects >=5){
-        return 90
-    }else if(exam > 50 && projects >=2){
-        return  75
-    }else {
-        return 0
-    }
-}
-console.log(finalValue(100, 12))
-console.log(finalValue(99, 0))
-console.log(finalValue(10, 15))
-console.log(finalValue(85, 5))
-console.log(finalValue(55, 3))
-console.log(finalValue(55, 0))
-console.log(finalValue(20, 2))
+// function finalValue(exam, projects){
+//     if(exam > 90 || projects > 10){
+//         return 100
+//     }else if(exam > 75 && projects >=5){
+//         return 90
+//     }else if(exam > 50 && projects >=2){
+//         return  75
+//     }else {
+//         return 0
+//     }
+// }
+// console.log(finalValue(100, 12))
+// console.log(finalValue(99, 0))
+// console.log(finalValue(10, 15))
+// console.log(finalValue(85, 5))
+// console.log(finalValue(55, 3))
+// console.log(finalValue(55, 0))
+// console.log(finalValue(20, 2))
+
+// function reverseString (str){
+//     return str.split("").reverse().join('')
+// }
+//
+// console.log(reverseString("world"))
+// console.log(reverseString("word"))
+// function removeChar(str){
+//     return str.substr(1)
+// }
+//
+// console.log(removeChar('everyone'))
+
+//1. Вам дана переменная a. Если переменная a равна 10, то выведите 'Верно', иначе выведите 'Неверно'.
+// let a = 20
+// if (a === 10){
+//     console.log("verno")
+// }else{
+//     console.log('neverno')
+// }
+// let a = 50
+// let b = 100
+// if (a > b){
+//     console.log('a bolshe b')
+// }else if (a < b){
+//     console.log('a menshe b')
+// }
+// let a = -2
+// if ( a > 0){
+//     console.log('positive')
+// }else if (a === 0){
+//     console.log('ravno')
+// }else if( a < 0){
+//     console.log('negative')
+// }
+//
+// let number = 2
+// if(number % 5 === 0){
+//     console.log("nechetnoe")
+// }else if(number % 2 ===0){
+//     console.log("chetnoe")
+// }
+
+// const car = {
+//     model:"Tesla",
+//     year: 2022,
+//     color: "white"
+// }
+// console.log(car.model)

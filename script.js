@@ -261,13 +261,17 @@
 // console.log(isPalindrome("doood"))
 // console.log(isPalindrome("abba"))
 // console.log(isPalindrome("dorama"))
-const user ={
-    name: "Ivan",
-    age: 20,
-    job: "Developer"
-}
-user.city = "Dubai"
-user.country = "Saudovskaya Arabiya"
-user.job = "Freelancer"
-
-console.log(user)
+// const user ={
+//     name: "Ivan",
+//     age: 20,
+//     job: "Developer"
+// }
+// user.city = "Dubai"
+// user.country = "Saudovskaya Arabiya"
+// user.job = "Freelancer"
+//
+// console.log(user)
+let array = [34,65,75]
+let array1 = array
+console.log(array)
+console.log(array1===array)

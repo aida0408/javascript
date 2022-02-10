@@ -245,11 +245,29 @@
 //
 // console.log(removeCart("Karbalas"))
 
-function isPalindrome(line) {
-    return line.split("").reverse().join('').toLowerCase() === line.toLowerCase()
+// function isPalindrome(line) {
+//     return line.split("").reverse().join('').toLowerCase() === line.toLowerCase()
+//
+// }
+//
+// console.log(isPalindrome("anna"))
+// console.log(isPalindrome("dima"))
+// console.log(isPalindrome("tacocaT"))
 
+// function isPalindrome(line){
+//     return line.split("").reverse().join("").toLowerCase()===line.toLowerCase()
+// }
+//
+// console.log(isPalindrome("doood"))
+// console.log(isPalindrome("abba"))
+// console.log(isPalindrome("dorama"))
+const user ={
+    name: "Ivan",
+    age: 20,
+    job: "Developer"
 }
+user.city = "Dubai"
+user.country = "Saudovskaya Arabiya"
+user.job = "Freelancer"
 
-console.log(isPalindrome("anna"))
-console.log(isPalindrome("dima"))
-console.log(isPalindrome("tacocaT"))
+console.log(user)
